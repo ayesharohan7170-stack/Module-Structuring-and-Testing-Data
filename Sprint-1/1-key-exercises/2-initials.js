@@ -10,3 +10,7 @@ console.log(initials);
 
 // https://www.google.com/search?q=get+first+character+of+string+mdn
 
+// charAt(0) returns C from "Creula" because we need C .
+// if we use char(1) it will display "r".
+// the "+" operator is adding the characters together.  
+// it will display nothing for middleName.charAt(0) .or maybe we don't apply anything on it.
