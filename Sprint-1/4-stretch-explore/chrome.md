@@ -21,3 +21,13 @@ What effect does calling the `prompt` function have?
 What is the return value of `prompt`?
 <!-- The prompt() function returns the text entered by the user as a string.if I enter "Ayesha"
 it stores that value in variable "myName" -->
+<!-- diff between alert() and prompt -->
+alert() displays a message to the user.
+
+<!-- Example -->
+alert("Good Luck!");
+prompt() displays a message and an input field. The user can type a response and click OK, or click Cancel.
+
+<!-- Example -->
+let myName = prompt("What is your name?");
+console.log(myName);    
