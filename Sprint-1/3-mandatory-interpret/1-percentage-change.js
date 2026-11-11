@@ -14,6 +14,8 @@ console.log(`The percentage change is ${percentageChange}`);
 // a) How many function calls are there in this file? Write down all the lines where a function call is made
 // carPrice = Number(carPrice.replaceAll(",", ""));
 // priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
+// Line 4: replaceAll() and Number()
+// Line 5: replaceAll() and Number()
 
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
@@ -26,5 +28,13 @@ console.log(`The percentage change is ${percentageChange}`);
 // Line 1 , 2 , 7, 8
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
-// It's replacing the comma in the carPrice with an empty string.
+//  It's replacing the comma in the carPrice with an empty string.
 // The Number is converting the string into integar for next methametical operation.
+
+//  then after one year by subtracting the new price from the original price.//
+// It calculates how much the car price has decreased
+
+
+//  then We divide by the original price because we want to know
+// how much the car's value has decreased compared to its starting price.
+// The result tells us the percentage decrease in the car's price.
